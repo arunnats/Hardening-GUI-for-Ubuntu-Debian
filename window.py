@@ -18,7 +18,7 @@ class mainWindow(Gtk.Window):
         self.set_default_size(1000,800)
         
     def button_clicked(self, widget):
-        os.system("cd scripts && ./testScript.sh")
+        os.system("./testScript.sh")
 window = mainWindow()
 
 
